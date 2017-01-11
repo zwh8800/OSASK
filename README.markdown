@@ -27,24 +27,24 @@ OK，向着属于你的操作系统进发吧！
 2.查看提交记录
 		
 		cd OSASK
-		git log --graph --pretty=oneline
+		git tag
 
 => 找到自己需要的代码
 
-		........
-		* 8981d2d02d36bbf9954f0c3c20532bd04732e5b8 DAY17
-		* bbadc07d81996f13b699f34c93277c3d92d3b4f5 DAY16
-		* 2f47672c7b9ac07c0ddf2696d9fa79d81d19e9c4 DAY15
-		* b4623d7581b8f5096667723b696f13bad6d460a2 DAY14
-		* 72582ea4e7d3631ef10b57bdcbaa59db3893f3f8 DAY13
-		* 63e2206785e59869d95415b1033778139f410516 DAY12
-		* d09c762b18ee47b601994c7a3e85fd62b2d4e91f DAY11
-		* 9b2998c9ff8a73f200d77a9a76bfb1b9c86490e2 DAY10
-		........
+		DAY1
+		DAY10
+		DAY11
+		DAY12
+		DAY13
+		DAY14
+		DAY15
+		DAY16
+		DAY17
+		DAY18
 
-3.创建自己的分支(只需要ID的前几位就行，这里检出DAY17)
+3.检出自己想要的的tag(这里检出DAY17)
 
-		git branch mybranch 8981d
+		git checkout DAY17
 
 4.run it
 
